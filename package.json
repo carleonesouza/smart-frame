@@ -1,0 +1,24 @@
+{
+  "name": "smartframe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "/src/pages/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Carleone Souza",
+  "license": "ISC",
+  "dependencies": {
+    "firebase": "^7.14.3",
+    "gatsby": "^2.20.8",
+    "gatsby-plugin-postcss": "^2.2.1",
+    "gatsby-plugin-react-helmet": "^3.2.1",
+    "node-libs-browser": "^2.2.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-helmet": "^5.2.1"
+  },
+  "devDependencies": {
+    "tailwindcss": "^1.2.0"
+  }
+}

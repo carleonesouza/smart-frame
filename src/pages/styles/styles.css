@@ -1,0 +1,13 @@
+.body {
+    font-family: "Whitney SSm A", "Whitney SSm B", "Helvetica Neue", Helvetica, Arial, Sans-Serif;
+}
+
+  .error-text {
+    font-size: 100%;
+  }
+
+  @media (min-width: 768px) {
+    .error-text {
+      font-size: 100%
+    }
+  }
