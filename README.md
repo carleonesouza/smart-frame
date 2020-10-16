@@ -14,11 +14,56 @@ This project was generated with [Gatsby 2.20.8](https://www.gatsbyjs.org/docs/),
 
 # Guide
 
-1. Install [nodejs](https://github.com/nodesource/distributions)
+1. Install [Nodejs](https://github.com/nodesource/distributions)
 
 ```
 # Using Ubuntu
-curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
-sudo apt-get install -y nodejs
+    curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
+    sudo apt-get install -y nodejs
 
 ```
+
+2. Install [Gatsby CLI](https://www.gatsbyjs.com/tutorial/part-zero/#using-the-gatsby-cli)
+
+```
+    npm install -g gatsby-cli
+```
+See the available commands:
+
+```
+    gatsby --help
+```
+2.1 Create a folder where your project is going to be, and inside folder open the terminal and run the commands below or run with VSCode terminal:
+
+```
+    npm init 
+```
+
+2.2 Install Gatsby React and React-DOM 
+
+```
+    npm install gatsby react react dom
+```
+
+3. Install [Firebase](https://firebase.google.com/docs/cli#install-cli-mac-linux)
+
+```
+    curl -sL https://firebase.tools | bash
+```
+
+Follow others instructions in the link above.
+
+4. [TailwindCSS](https://www.gatsbyjs.com/docs/tailwind-css/#1-install-tailwind)
+
+```
+    npm install tailwindcss --save-dev
+```
+
+
+4.1 Install [PostCSS](https://www.gatsbyjs.com/docs/tailwind-css/#option-1-postcss) (as a Plugin)
+
+```
+    npm install postcss gatsby-plugin-postcss
+```
+Follow others instructions in the link above.
+
