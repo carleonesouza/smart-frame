@@ -46,11 +46,11 @@ This project was generated with [Gatsby 2.20.8](https://www.gatsbyjs.org/docs/),
     npm init 
 ```
 
-    4.1 Install Gatsby React and React-DOM 
+ 4.1 Install Gatsby React and React-DOM 
 
-    ```
-        npm install gatsby react react dom
-    ```
+```
+    npm install gatsby react react dom
+```
 
     Follow others instructions in the link above.
 
@@ -64,8 +64,8 @@ This project was generated with [Gatsby 2.20.8](https://www.gatsbyjs.org/docs/),
 
 5.1 Install [PostCSS](https://www.gatsbyjs.com/docs/tailwind-css/#option-1-postcss) (as a Plugin)
 
-    ```
-        npm install postcss gatsby-plugin-postcss
-    ```
+ ```
+    npm install postcss gatsby-plugin-postcss
+ ```
     Follow others instructions in the link above.
 
