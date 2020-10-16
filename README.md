@@ -62,7 +62,7 @@ This project was generated with [Gatsby 2.20.8](https://www.gatsbyjs.org/docs/),
 ```
 
 
-    5.1 Install [PostCSS](https://www.gatsbyjs.com/docs/tailwind-css/#option-1-postcss) (as a Plugin)
+5.1 Install [PostCSS](https://www.gatsbyjs.com/docs/tailwind-css/#option-1-postcss) (as a Plugin)
 
     ```
         npm install postcss gatsby-plugin-postcss
