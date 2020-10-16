@@ -20,15 +20,14 @@ This project was generated with [Gatsby 2.20.8](https://www.gatsbyjs.org/docs/),
 # Using Ubuntu
     curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
     sudo apt-get install -y nodejs
-
 ```
 
 2. Install [Gatsby CLI](https://www.gatsbyjs.com/tutorial/part-zero/#using-the-gatsby-cli)
 
 ```
-    npm install -g gatsby-cli
+   npm install -g gatsby-cli
 ```
-    See the available commands:
+See the available commands:
 
 ```
     gatsby --help
@@ -52,7 +51,7 @@ This project was generated with [Gatsby 2.20.8](https://www.gatsbyjs.org/docs/),
     npm install gatsby react react dom
 ```
 
-    Follow others instructions in the link above.
+Follow others instructions in the link above.
 
 
 5. [TailwindCSS](https://www.gatsbyjs.com/docs/tailwind-css/#1-install-tailwind)
@@ -67,5 +66,5 @@ This project was generated with [Gatsby 2.20.8](https://www.gatsbyjs.org/docs/),
  ```
     npm install postcss gatsby-plugin-postcss
  ```
-    Follow others instructions in the link above.
+Follow others instructions in the link above.
 
