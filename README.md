@@ -39,7 +39,7 @@ See the available commands:
     curl -sL https://firebase.tools | bash
 ```
 
-4. Create a folder where your project is going to be, and inside folder open the terminal and run the commands below or run with VSCode terminal:
+4. Create a folder where your project is going to be, and inside the folder open the terminal and run the commands below or run with VSCode terminal:
 
 ```
     npm init 
@@ -48,7 +48,7 @@ See the available commands:
  4.1 Install Gatsby React and React-DOM 
 
 ```
-    npm install gatsby react react dom
+    npm install gatsby react react-dom
 ```
 
 Follow others instructions in the link above.
