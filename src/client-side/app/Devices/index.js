@@ -15,7 +15,7 @@ const ContentDevice = ({device, setSceneOnDevice, scenes}) => {
                 <label className='block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2'  htmlFor={'select-'+device.id} >
                     Scene
         </label>
-                <div className='relative'>
+                <div className='resetDeviceStatuslative'>
                 <select ref={selectRef} className='block appearance-none w-full bg-gray-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500' id={'select-'+device.id}>
                         {scenes.map(scene => <option value={scene.id} key={scene.id}> {scene.name} </option>)}
                     </select>
@@ -50,7 +50,7 @@ const Alert = ({ status }) => {
 const Device = () => {
     const auth = useAuth()
     const db = firebase.firestore()
-    const [deviceStatus, setDeviceStatus] = useState(false)
+    const [deviceStatus, setDeviceStatus] = useState()
     const [devices, setDevices] = useState([])
     const [scenes, setScenes] = useState([])
     const [form, setForm] = useState({
@@ -151,7 +151,6 @@ const Device = () => {
                     </div>
                 </div>
                 <Alert status={deviceStatus} />
-                <pre>{JSON.stringify(devices, null, 2)} </pre>
                 <br />
                 <div className='max-w-sm rounded overflow-hidden shadow-lg'>
                     <p className='p-4 text-center'>Devices</p>

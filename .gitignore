@@ -4,6 +4,7 @@
 # dependencies
 /node_modules
 
+/cache
 
 # IDEs and editors
 /.idea
@@ -13,6 +14,8 @@
 *.launch
 .settings/
 *.sublime-workspace
+
+/public 
 
 #Firebase
 firebase.json
@@ -42,3 +45,4 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+src/lib/firebase.js
