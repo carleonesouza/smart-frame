@@ -11,7 +11,7 @@
   "dependencies": {
     "@tailwindcss/ui": "^0.6.2",
     "firebase": "^7.14.3",
-    "gatsby": "^2.20.8",
+    "gatsby": "^4.25.7",
     "gatsby-plugin-postcss": "^2.2.1",
     "gatsby-plugin-react-helmet": "^3.2.1",
     "node-libs-browser": "^2.2.1",
